@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "./components/Link";
 
 import styles from "../styles/Home.module.css";
+import House from "./components/House";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +17,10 @@ const Home: NextPage = () => {
       <h1 className="bg-blue-700 text-white p-16 text-center">
         Welcome to Next.js with Recoil and JEST and React Testing Library!
       </h1>
+
+      <Link />
+
+      <House />
     </div>
   );
 };
