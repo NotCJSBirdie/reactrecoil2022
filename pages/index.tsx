@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>
+      <h1 className="bg-blue-700 text-white p-16 text-center">
         Welcome to Next.js with Recoil and JEST and React Testing Library!
       </h1>
     </div>
